@@ -34,6 +34,7 @@ console.log("-----------------Condicional anidada----------------------")
 
 let hora = 19
 
+console.log((hora>=6 && hora<=18) ? "Buenos dias": (hora>=19 && hora<=24 || hora>=1 && hora<=5) ? "Buenas noches" : "No es una hora valida" )
 /*Devuelve un saludo dependiendo la hora:
     -De 24 a las 05: Dejen dormir!
     -De 06 a las 11: Buenos días!
